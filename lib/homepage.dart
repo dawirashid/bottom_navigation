@@ -1,6 +1,5 @@
 import 'package:bottom_navigation/pages/home.dart';
 import 'package:flutter/material.dart';
-
 import 'pages/account.dart';
 import 'pages/message.dart';
 import 'pages/setting.dart';
@@ -40,6 +39,8 @@ class _HomepageState extends State<Homepage> {
       // ),
       backgroundColor: const Color(0xE88997D2),
       bottomNavigationBar: BottomNavigationBar(
+        // selectedItemColor: const Color(0xE86C5719),
+        fixedColor: const Color(0xFD1A346C),
         currentIndex: _selectedIndex,
         onTap: _navigateBottomBar,
         type: BottomNavigationBarType.fixed,
